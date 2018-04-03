@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="container">
     <header id="main-header">
       <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-          <img src="img/person1.jpg">
+          <p class="va">VA</p>
         </div>
         <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
             <div class="p-5 bg-dark text-white">
-              <div class="name d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">John Doe</h1>
-                <div><i class="fa fa-twitter"></i></div>
-                <div><i class="fa fa-facebook"></i></div>
-                <div><i class="fa fa-instagram"></i></div>
-                <div><i class="fa fa-github"></i></div>
+              <div class="name d-flex flex-row flex-wrap justify-content-between align-items-center">
+                <h1 class="display-4">Varden Adamchuk</h1>
+                <div>
+                  <a href="https://twitter.com/vardenadams?lang=en">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/varden.adamchuk">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/ivarden">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
             <div class="p-4 bg-black">
-              Experienced Full Stack Web Developer
+              Experienced Front End Developer and QA Analyst
             </div>
 
             <div>
@@ -58,33 +71,46 @@
     <div id="home" class="collapse show">
       <div class="card card-body bg-primary text-white py-5">
         <h2>Welcome to my page</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quia.</p>
+        <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quia.</p> -->
       </div>
 
       <div class="card card-body py-5">
         <h3>My Skills</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nulla et, modi harum hic deserunt.</p>
+        <p>I have experience with:</p>
         <hr>
-        <h4>HTML</h4>
+        <h4>HTML/HTML5, JADE (Pug)</h4>
         <div class="progress mb-3">
           <div class="progress-bar bg-success" style="width:100%"></div>
         </div>
-        <h4>CSS</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:100%"></div>
-        </div>
-        <h4>JavaScript</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width:90%"></div>
-        </div>
-        <h4>PHP</h4>
+        <h4>CSS/CSS3, SCSS, PostCSS, BEM</h4>
         <div class="progress mb-3">
           <div class="progress-bar bg-success" style="width:80%"></div>
         </div>
-        <h4>Python</h4>
+        <h4>JavaScript / ES6</h4>
         <div class="progress mb-3">
           <div class="progress-bar bg-success" style="width:70%"></div>
         </div>
+        <h4>React/Redux</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:60%"></div>
+        </div>
+        <h4>QA Manual</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:80%"></div>
+        </div>
+        <h4>QA Automation with Nightwatch.js</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:70%"></div>
+        </div>
+        <h4>Gulp, Webpack</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:60%"></div>
+        </div>
+        <h4>Photoshop</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:60%"></div>
+        </div>
+
       </div>
     </div>
 
@@ -92,7 +118,7 @@
     <div id="resume" class="collapse">
       <div class="card card-body bg-success text-white py-5">
         <h2>My Resume</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nobis ut labore iure tempore qui!</p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nobis ut labore iure tempore qui!</p> -->
       </div>
 
       <div class="card card-body py-5">
@@ -101,10 +127,12 @@
         <div class="card-deck">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Devmasters</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
+              <h4 class="card-title">2014-2015 utest.com</h4>
+              <p class="card-text">Tested apps, websites, games for iOS and Android mobile devices. Looked for bugs and created bug reports, analyzed
+                log files. Tested desktop applications (Win/MAC/Linux) manually and used various automation tools.
+              </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Position: Full Stack Developer
+                Position: Manual Software Tester
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Phone: (444) 444-4444
@@ -117,10 +145,21 @@
 
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Websites Pro</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
+              <h4 class="card-title">2007–2012 AC-Trade GbR, Dresden, Germany</h4>
+              <p class="card-text">Developed and supported company websites on HTML, CSS, JS, PHP, WordPress. Installed, tested and provided troubleshooting
+                of various network elements (Cisco/HP/Lynksys/Netgear/TP/Dell switches, routers, ADSL and dial-up modems,
+                etc). Testing and troubleshooting wide range of different types of circuits and services: from legacy analogue
+                transmission systems, low-speed data circuits, fractional E1/T1, E1/T1, HDSL, ADSL to Ethernet, etc. Installed
+                LAN/WAN networks (fiber, coax, twisted pair (CAT5/5+) copper and wireless access points). Installed computer
+                and peripheral equipment at various customer locations (PCs, Printers, Points of Sales, etc.). Tested cross-connects,
+                mounted network elements (wall and rack), run cables. Provided data recovery and data protection services.
+                Provided customer desktop and server software installation and updates. Provided over the phone and remote
+                desktop sharing customer support. Developed and conducted training sessions for new technologies, applications
+                and services. Familiar with various network elements and test systems as well as databases and ticketing
+                applications: Cisco switches and routers, wireless access points, SIP protocol and IP Telephony.
+              </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Position: Front End Developer
+                Position: Owner
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Phone: (333) 333-3333
@@ -133,10 +172,18 @@
 
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">123 Designs</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
+              <h4 class="card-title">1999-2004 Dionis LTD; Ukraine</h4>
+              <p class="card-text">Developed and supported company extended and local websites on HTML, CSS, JS, PHP, Perl, Apache, MySQL. Installed,
+                maintained, tested and supported company network. •Troubleshooting and maintenance: investigated and solved
+                network/hardware/software and peripheral devices failures. •Troubleshooting TCP/IP protocols: LAN/WAN connectivity,
+                VPN, and dial-up connections. •Prepared reports and documentation for various projects. •Maintained company
+                desktops, servers and applicable software, including regular updates and patches, backups and restorations
+                (including: Windows 95/97/XP/7, Windows Server, Linux, MS Office, antivirus software, accounting software).
+                •Installed and supported company telephony system – IP/Analogue PBX. •Supported LAN: Cisco routers (2600/2800
+                series), Cisco switches.
+              </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Position: Designer
+                Position: Programmer / PC Technician
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Phone: (222) 222-2222
@@ -154,7 +201,7 @@
     <div id="work" class="collapse">
       <div class="card card-body bg-warning py-5">
         <h3>My Portfolio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, adipisci?</p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, adipisci?</p> -->
       </div>
 
       <div class="card card-body py-5">
@@ -212,7 +259,7 @@
     <div id="contact" class="collapse">
       <div class="card card-body bg-danger text-white py-5">
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, dignissimos?</p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, dignissimos?</p> -->
       </div>
 
       <div class="card card-body py-5">
@@ -251,9 +298,7 @@
     <!-- FOOTER -->
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="row">
-        <div class="col-md-6">
-          <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i> Download Resume</a>
-        </div>
+        <h4 class="copy">&copy; 2018</h4>
       </div>
     </footer>
   </div>
@@ -263,14 +308,15 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
   <script>
-    $('.port-item').click(function(){
+    $('.port-item').click(function () {
       $('.collapse').collapse('hide');
     });
 
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
   </script>
 </body>
+
 </html>
