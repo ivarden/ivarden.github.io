@@ -37,9 +37,9 @@
 .fa:hover{
   color: white;
 }
-.bg-success:hover{
+/* .bg-success:hover{
   background-color: red !important;
-}
+} */
 
 .copy{
   text-align: center;
