@@ -9,59 +9,43 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
 
 <body>
   <div class="container">
+    <!-- HEADER -->
     <header id="main-header">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-md-5">
-          <p class="va">VA</p>
-        </div>
-        <div class="col-lg-8 col-md-7">
-          <div class="d-flex flex-column">
-            <div class="p-5 bg-dark text-white">
-              <div class="name d-flex flex-row flex-wrap justify-content-between align-items-center">
-                <h1 class="display-4">Varden Adamchuk</h1>
-                <div>
-                  <a href="https://twitter.com/vardenadams?lang=en">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.facebook.com/varden.adamchuk">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://github.com/ivarden">
-                    <i class="fa fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="p-4 bg-black">
-              <h4>Experienced Front-End Web Developer and QA Analyst</h4>
-            </div>
-
-            <div>
-              <div class="d-flex flex-row text-white align-items-stretch text-center">
-                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
-                  <i class="fa fa-home d-block"></i> Home
-                </div>
-                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
-                  <i class="fa fa-list-ul d-block"></i> Resume
-                </div>
-                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
-                  <i class="fa fa-folder-open d-block"></i> Work
-                </div>
-                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
-                  <i class="fa fa-graduation-cap d-block"></i> Education
-                </div>
-              </div>
-            </div>
+      <!-- icons-social -->
+      <div class="icons-social">
+        <a href="https://www.linkedin.com/in/ivarden/" target="new">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/ivarden" target="new">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://twitter.com/vardenadams?lang=en" target="new">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/varden.adamchuk" target="new">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+      <!-- wrap-nav -->
+      <div class="wrap-nav">
+        <h4 class="logo">Front-End Web Developer and QA Analyst</h4>
+        <div class="nav">
+          <div class="port-item p-2" data-toggle="collapse" data-target="#home">
+            <i class="fa fa-home d-block"></i> Home
+          </div>
+          <div class="port-item p-2" data-toggle="collapse" data-target="#resume">
+            <i class="fa fa-list-ul d-block"></i> Resume
+          </div>
+          <div class="port-item p-2" data-toggle="collapse" data-target="#work">
+            <i class="fa fa-folder-open d-block"></i> Work
+          </div>
+          <div class="port-item p-2" data-toggle="collapse" data-target="#education">
+            <i class="fa fa-graduation-cap d-block"></i> Education
           </div>
         </div>
       </div>
@@ -69,46 +53,46 @@
 
     <!-- HOME -->
     <div id="home" class="collapse show">
-      <div class="card card-body bg-primary text-white py-5">
+      <!-- <div class="card card-body bg-primary text-white py-5">
         <h2>My Skills</h2>
-      </div>
+      </div> -->
 
       <div class="card card-body py-5">
-        <h4>HTML/HTML5, JADE (Pug)</h4>
+        <h6>HTML/HTML5, JADE (Pug)</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:100%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:100%"></div>
         </div>
-        <h4>CSS/CSS3, SCSS, PostCSS, BEM</h4>
+        <h6>CSS/CSS3, SCSS, PostCSS, BEM</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:80%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:80%"></div>
         </div>
-        <h4>JavaScript / ES6</h4>
+        <h6>JavaScript / ES6</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:70%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:70%"></div>
         </div>
-        <h4>Node</h4>
+        <h6>Node</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:30%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:30%"></div>
         </div>
-        <h4>React/Redux</h4>
+        <h6>React/Redux</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:60%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:60%"></div>
         </div>
-        <h4>QA Manual</h4>
+        <h6>QA Manual</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:90%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:90%"></div>
         </div>
-        <h4>QA Automation with Nightwatch.js</h4>
+        <h6>QA Automation with Nightwatch.js</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:50%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:50%"></div>
         </div>
-        <h4>Gulp, Webpack</h4>
+        <h6>Gulp, Webpack</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:60%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:60%"></div>
         </div>
-        <h4>Photoshop</h4>
+        <h6>Photoshop</h6>
         <div class="progress mb-3">
-          <div class="progress-bar bg-primary" style="width:60%"></div>
+          <div class="progress-bar bg-success progress-bar-striped" style="width:60%"></div>
         </div>
 
       </div>
@@ -116,63 +100,47 @@
 
     <!-- RESUME -->
     <div id="resume" class="collapse">
-      <div class="card card-body bg-success text-white py-5">
-        <h2>Where have I worked?</h2>
-      </div>
+      <!-- <h3>Where have I worked?</h3> -->
 
       <div class="card card-body">
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4> Freelance / Position: Front-End Web Developer</h4>
-          </div>
+          <h6 class="card-header bg-success text-white"> Freelance / Position: Front-End Web Developer - Dates: 2016 - Present</h6>
           <div class="card-body">
             <p class="card-text">in my GitHub account you can see my last activity. I have experience in HTML/HTML5, JADE (Pug), CSS/CSS3, SASS/SCSS,
               PostCSS, BEM, Bootstrap, JavaScript [ES6], React, Redux, Redux-Saga, Node, Gulp, Webpack, Photoshop, Testing
               (Manual [web, mobile] and Automation [web] with Nightwatch.js).
             </p>
           </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 2016 - Present</h6>
-          </div>
+          <!-- <h6 class="card-footer bg-secondary text-white progress-bar-striped">Dates: 2016 - Present</h6> -->
         </div>
         <br>
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>utest.com / Position: Manual Software Tester</h4>
-          </div>
+          <h6 class="card-header bg-success text-white">utest.com / Position: Manual Software Tester - Dates: 2014 - 2015</h6>
           <div class="card-body">
             <p class="card-text">Tested apps, websites, games for iOS and Android mobile devices. Looked for bugs and created bug reports, analyzed
               log files. Tested desktop applications (Win/MAC/Linux) manually and used various automation tools.
             </p>
           </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 2014 - 2015</h6>
-          </div>
+          <!-- <h6 class="card-footer bg-secondary text-white progress-bar-striped">Dates: 2014 - 2015</h6> -->
         </div>
         <br>
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>Westcott Middlegate, Burnaby, BC, Canada / Position: Relief Resident Manager</h4>
-          </div>
+          <h6 class="card-header bg-success text-white">Westcott Middlegate, Burnaby, BC, Canada / Position: Relief Resident Manager - Dates: 2012 - Present</h6>
           <div class="card-body">
             <p class="card-text">Support full cycle of building maintenance, including identification of issues, planning repairs, making sure
               safety is being observed during planned maintenance activities, negotiate with contractors, handle requests
               from residents and prepare various papers.
             </p>
           </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 2012 - Present</h6>
-          </div>
+          <!-- <h6 class="card-footer bg-secondary text-white progress-bar-striped">Dates: 2012 - Present</h6> -->
         </div>
         <br>
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>AC-Trade GbR, Dresden, Germany / Position: Owner</h4>
-          </div>
+          <h6 class="card-header bg-success text-white">AC-Trade GbR, Dresden, Germany / Position: Owner - Dates: 2007 - 2012</h6>
           <div class="card-body">
             <ul class="card-text">
               <li>Developed and supported company websites on HTML, CSS, JS, PHP, WordPress. </li>
@@ -203,16 +171,12 @@
               </li>
             </ul>
           </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 2007 - 2012</h6>
-          </div>
+          <!-- <h6 class="card-footer bg-secondary text-white progress-bar-striped">Dates: 2007 - 2012</h6> -->
         </div>
         <br>
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>Dionis LTD; Ukraine / Position: Programmer / PC Technician</h4>
-          </div>
+          <h6 class="card-header bg-success text-white">Dionis LTD; Ukraine / Position: Programmer / PC Technician - Dates: 1999 - 2004</h6>
           <div class="card-body">
             <ul class="card-text">
               <li>Developed and supported company extended and local websites on HTML, CSS, JS, PHP, Perl, Apache, MySQL. Installed,
@@ -228,9 +192,7 @@
               <li>Supported LAN: Cisco routers (2600/2800 series), Cisco switches.</li>
             </ul>
           </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 1999 - 2004</h6>
-          </div>
+          <!-- <h6 class="card-footer bg-secondary text-white progress-bar-striped">Dates: 1999 - 2004</h6> -->
         </div>
         <br>
 
@@ -239,10 +201,9 @@
 
     <!-- WORK -->
     <div id="work" class="collapse">
-      <div class="card card-body bg-warning py-5">
+      <!-- <div class="card card-body bg-warning py-5">
         <h3>My Portfolio</h3>
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, adipisci?</p> -->
-      </div>
+      </div> -->
 
       <div class="card card-body py-5">
         <h3>
@@ -297,16 +258,14 @@
     </div>
 
     <!-- EDUCATION -->
-    <div id="contact" class="collapse">
-      <div class="card card-body bg-danger text-white py-5">
+    <div id="education" class="collapse">
+      <!-- <div class="card card-body bg-danger text-white py-5">
         <h2>University and Courses</h2>
-      </div>
+      </div> -->
       <div class="card card-body">
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>Courses</h4>
-          </div>
+          <h6 class="card-header bg-success text-white">Courses</h6>
           <div>
             <li class="card-footer bg-light">The Complete React Js & Redux Course - Build Modern Web Apps, Certificate no: UC-UYPOJMET (March 2018)</li>
             <li class="card-footer bg-light">Serverless Concepts Certification, Udemy Certificate no: UC-NUSHOMQ8 (Mar 2018)</li>
@@ -325,27 +284,14 @@
         <br>
 
         <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>Regional Institute of Management</h4>
-          </div>
-          <div class="card-header bg-dark text-white">
-            <h4>Specialist in Economics and Finance</h4>
-          </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 1997 - 1999</h6>
-          </div>
-        </div>
-        <br>
+          <h6 class="card-header bg-success text-white">University & Institute</h6>
 
-        <div class="card">
-          <div class="card-header bg-success card-title text-white">
-            <h4>Taras Shevchenko East-Ukrainian University, Ukraine</h4>
-          </div>
-          <div class="card-header bg-dark text-white">
-            <h4>Master Degree in Pedagogics</h4>
-          </div>
-          <div class="card-footer bg-secondary text-white">
-            <h6>Dates: 1991 - 1996</h6>
+          <div>
+            <li class="card-footer bg-light">
+              <b>Specialist in Economics and Finance</b>, Regional Institute of Management (graduated in 1999)</li>
+            <li class="card-footer bg-light">
+              <b>Master Degree in Pedagogics</b>, Taras Shevchenko East-Ukrainian University, Ukraine (graduated in 1996)</li>
+            </li>
           </div>
         </div>
         <br>
@@ -354,11 +300,12 @@
     </div>
 
     <!-- FOOTER -->
-    <footer id="main-footer" class="p-5 bg-dark text-white">
+    <footer id="main-footer" class="p-4 bg-dark text-white progress-bar-striped">
       <div class="row">
-        <h4 class="copy">&copy; 2018</h4>
+        <h6 class="copy">&copy; 2018</h6>
       </div>
     </footer>
+
   </div>
 
   <script src="js/jquery.min.js"></script>
