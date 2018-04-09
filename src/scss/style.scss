@@ -22,6 +22,7 @@
 
 .wrap-nav {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -41,6 +42,9 @@ footer {
 .card-footer {
   padding: .3rem;
   margin-bottom: 0;
+}
+li {
+  padding-left: 0rem;
 }
 
 // @media
