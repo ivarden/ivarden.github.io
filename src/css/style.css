@@ -41,6 +41,13 @@ footer {
 li {
   padding-left: 0rem; }
 
+.wrap-home {
+  display: flex; }
+  .wrap-home_text {
+    padding: 0.5rem; }
+  .wrap-home_skills {
+    min-width: 50%; }
+
 @media (min-width: 1199px) {
   .icons-social {
     display: flex;
@@ -90,7 +97,10 @@ li {
     display: flex;
     margin-left: 0;
     text-align: center;
-    font-size: .8rem; } }
+    font-size: .8rem; }
+  .wrap-home {
+    display: flex;
+    flex-wrap: wrap; } }
 
 .copy {
   text-align: center;
