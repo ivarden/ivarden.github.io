@@ -26,6 +26,7 @@
 
 .nav {
   display: flex;
+  flex-wrap: nowrap;
   margin-left: auto;
   text-align: center;
 }
@@ -73,7 +74,6 @@ footer {
   }
   .wrap-nav {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 0;
   } 
@@ -97,7 +97,6 @@ footer {
     }
     .wrap-nav {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       margin-left: 0;
     } 
